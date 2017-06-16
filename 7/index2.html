@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework hover</title>
+	<style>
+<style>
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			width: 100%;
+		}
+		.container {
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.form1::before {
+		list-style: none; /* УБИРАЕМ ИСХОДНЫЕ МАРКЕРЫ */
+    background: url(images/book.png) no-repeat 0 4px;
+    } 
+	</style>
+</head>
+<body>
+		<div class="conteiner">
+			<ul class="form1">
+				<li class="item1"><a href="#">Я простая ссылка</a></li>
+				<li class="item1"><a href="#">А я ссылка с ховером</a></li>
+					<ul class="form2">
+						<li class="item2"><a href="#">Ещё одна ссылка уже во внутреннем списке</a></li>
+						<li class="item2"><a href="#">Ещё одна ссылка уже во внутреннем списке</a></li>
+						<li class="item2"><a href="#">Ещё одна ссылка уже во внутреннем списке</a></li>
+							<ul class="form3">
+								<li class="item3"><a href="#">Последняя ссылка в списке 3-го уровня</a></li>
+							</ul>
+						<li class="item2"><a href="#">Вернёмся назад</a></li>
+					</ul>
+				<li class="item1"><a href="#">И ещё назад</a></li>
+			</ul>
+		</div>
+</body>
+</html>

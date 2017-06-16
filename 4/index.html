@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	#my-cite {/* 0 1 0 0*/
+		color: #0f0;
+	}
+	blockquote.cite {/* 0 0 1 1*/
+			color: #f00;
+		}
+	[title="Cite"] {/* 0 0 1 0*/
+		color: #00f;
+	}
+	* {/*0 0 0 1 (: 0 0 0 0 - !important)*/
+		color: #000;
+	}
+	</style>
+</head>
+<body>
+	 <blockquote style="color: #ff0" id="my-cite" class="cite" title="Cite">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aut, accusantium dolore, ducimus totam vero! Alias accusamus nihil pariatur sint.
+	 </blockquote>
+</body>
+</html>

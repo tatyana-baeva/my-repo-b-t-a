@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background-color: #fff;
+	margin: 0;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	max-width: 1280px;
+	min-width: 320px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 61px;
+	background-color: #02918c;
+}
+.header-logo {
+	float: left;
+	width: 50%;
+	font-size: 26.18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #cfc91d;
+	padding-left: 51px;
+	height: 61px;
+  line-height: 61px;
+}
+.header-nav a, .header-logo {
+  text-decoration: none;
+}
+.header-nav-link {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	height: 61px;
+  line-height: 61px;
+}
+.header-list-item {
+	padding-right: 51px;
+}
+nav li {
+	float: left;
+  display: inline-block;
+}
+.contant1 {
+	display: block;
+	position: relative;
+	margin-top: 61px;
+	padding-top: 217px;
+	height: 728px;
+	width: 100%;
+	background: url(images/bgr1.jpg) 100% 100% no-repeat;
+	background-color: #394748;
+	background-size: contain;
+	background-position: 50% 50%;
+}
+.contant1-box {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.contant1-init {
+	font-size: 30px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 68px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #fff;
+	letter-spacing: 0.3em;
+}
+p {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
+.skob {
+	padding-top: 52px;
+	padding-bottom: 51px;
+}
+.contant1-botom {
+	display: block;
+  position: absolute;
+  top: 254px;
+  left: 557px;
+  overflow: hidden; 
+  width: 166px;
+  height: 49px;
+  background: #cfc91d;
+  color: #000;
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
+  font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	letter-spacing: 0.15em;
+}
+.contant1-botom input[type="submit"] {
+    display: none; 
+}
+.contant2 {
+	display: block;
+	position: relative;
+	height: 738px;
+	width: 100%;
+	background-color: #fff;
+}
+.contant2-init {
+	width: 100%;
+	height: 388px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 98px;
+	display: inline-block;
+}
+h2 {
+	font-size: 46px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #02918c;
+}
+.contant2-slash {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+	margin-top: 33px;
+	margin-bottom: 33px;
+}
+.cont2-p {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+}
+.cont2-p strong {
+	font-size: 23px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #7e8287;
+}
+.contant2-list-item {
+	width: 25%;
+	height: 250px;
+	border-right: 1px solid #d9dbdb;
+	text-align: center;
+	padding-top: 37px;
+}
+h3 {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #7e8287;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+.contant2-list-item p {
+	font-size: 11px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+}
+.contant3 {
+	position: relative;
+	height: 728px;
+	width: 100%;
+	background: url(images/bgr2.png) 100% 100% no-repeat;
+	background-color: #f0f0e8;
+	background-size: contain;
+	background-position: 50% 50%;
+}
+.contant3-init {
+	width: 50%;
+	height: 100%;
+	padding-top: 74px;
+	padding-left: 93px;
+	text-align: left;
+}
+.contant3-slash {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+	padding-top: 42px;
+	padding-bottom: 37px;
+}
+.contant3-init p {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+}
+.contant3-nav {
+	display: inline-block;
+	position: relative;
+	font-size: 0;
+	height: 100%;
+	padding-top: 59px;
+}
+.contant3-list-item {
+	float: left;
+	width: 50%;
+}
+.cont2-div {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+}
+.contant3-list-item h3 {
+	font-size: 16px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	color: #7e8287;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.cont3-div {
+	font-size: 11px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #7e8287;
+	padding-bottom: 57px;
+}
