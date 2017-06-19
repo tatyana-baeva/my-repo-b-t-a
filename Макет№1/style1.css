@@ -10,14 +10,15 @@
 		display: none;
 	}
 	.header {
-  position: relative;}
+  position: relative;
+}
 .nav {
   width: 100%;
   box-shadow: inset 0 5px rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 61px;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
   display: none;
 }
 .nav-link {
@@ -60,7 +61,7 @@
   position: absolute;
   top: 16px;
   right: 20px;
-  z-index: 1;
+  z-index: 1000;
 }
 .nav-burger__checkbox {
   display: none;
@@ -96,32 +97,24 @@
 }
 }
 @media only screen and (max-width: 830px) {
-.contant1 {
+  .contant1 {
 	height: 600px;
 	padding-top: 150px;
 }
 }
-@media all and (max-width: 1280px) {
-  .contant1-botom {
-    position: relative;
-    display: block;
-    top: 0px;
-    margin-left: 0px;
-  }
-}
 @media all and (max-width: 1230px) {
   .contant1-botom {
-   margin-left: -30px;
+    margin-left: 530px;
   }
 }
 @media all and (max-width: 1180px) {
   .contant1-botom {
-  margin-left: -60px;
+    margin-left: 510px;
   }
 }
 @media all and (max-width: 1130px) {
   .contant1-botom {
-  margin-left: -90px;
+    margin-left: 490px;
   }
   h1 {
   font-size: 58px;
@@ -129,12 +122,12 @@
 }
 @media all and (max-width: 1080px) {
   .contant1-botom {
-  margin-left: -105px;
+    margin-left: 460px;
   }
 }
 @media all and (max-width: 1030px) {
   .contant1-botom {
-    margin-left: -130px;
+    margin-left: 430px;
   }
   h1 {
   padding-top: 6px;
@@ -143,32 +136,37 @@
 }
 @media all and (max-width: 980px) {
   .contant1-botom {
-  margin-left: -150px;
+    margin-left: 400px;
   }
 }
 @media all and (max-width: 930px) {
   .contant1-botom {
-  margin-left: -170px;
+    margin-left: 380px;
   }
 }
 @media all and (max-width: 880px) {
   .contant1-botom {
-    margin-left: -190px;
+    margin-left: 350px;
   }
 }
 @media all and (max-width: 830px) {
   .contant1-botom {
-    margin-left: -210px;
+    margin-left: 350px;
   }
 }
 @media all and (max-width: 780px) {
   .contant1-botom {
-    margin-left: -230px;
+    margin-left: 320px;
+  }
+}
+@media all and (max-width: 768px) {
+  .contant1-botom {
+    margin-left: 300px;
   }
 }
 @media all and (max-width: 732px) {
   .contant1-botom {
-    margin-left: -270px;
+    margin-left: 280px;
   }
   .header-list-item {
   width: 100px;
@@ -176,27 +174,18 @@
 }
 @media all and (max-width: 690px) {
   .contant1 {
-  margin-top: 0px;
+    margin-top: 0px;
   }
   .contant1-botom {
-    margin-left: -280px;
+    margin-left: 240px;
   }
+}
 @media all and (max-width: 680px) {
  .contant1-botom {
-    margin-left: -320px;
+    margin-left: 230px;
   }
   .contant1-box {
     width: 630px;
-  }
-}
-@media all and (max-width: 650px) {
- .contant1-botom {
-    margin-left: -310px;
-  }
-}
-@media all and (max-width: 630px) {
-  .contant1-botom {
-    margin-left: -320px;
   }
 }
 @media all and (max-width: 586px) {
@@ -209,12 +198,6 @@
   }
 }
 @media all and (max-width: 580px) {
-  .contant1-botom {
-    position: relative;
-    display: block;
-    top: 0px;
-    margin-left: -315px;
-  }
   .contant1 {
     padding-top: 130px;
   }
@@ -225,7 +208,7 @@
 }
 @media all and (max-width: 530px) {
   .contant1-botom {
-    margin-left: -415px;
+    margin-left: 130px;
   }
   .contant1 {
     background-image: none;
@@ -242,27 +225,18 @@
   }
 }
 @media all and (max-width: 480px) {
-  .contant1-botom {
-    position: relative;
-    display: block;
-    top: 0px;
-    margin-left: -415px;
-  }
 .contant1 {
   padding-top: 100px;
   height: 520px;
 }
 }
 @media all and (max-width: 430px) {
-  .contant1-botom {
-    position: relative;
-    display: block;
-    top: 0px;
-    margin-left: -420px;
-  }
   .contant1 {
   padding-top: 70px;
   height: 480px;
+}
+.contant1-init {
+  width: 262px;
 }
 h1 {
   line-height: 45px;
@@ -270,10 +244,7 @@ h1 {
 }
 @media all and (max-width: 380px) {
   .contant1-botom {
-    position: relative;
-    display: block;
-    top: 0px;
-    margin-left: -470px;
+
   }
   .contant1 {
   padding-top: 50px;
@@ -286,15 +257,12 @@ h1 {
   font-size: 26px;
   line-height: 35px;
 }
-  .contant1-box {
-    width: 330px;
+  .contant1-init p {
+    width: 280px;
 }
 @media all and (max-width: 320px) {
   .contant1-botom {
-    position: relative;
-    display: block;
-    top: 0px;
-    margin-left: -470px;
+
   }
   .contant1 {
   padding-top: 50px;

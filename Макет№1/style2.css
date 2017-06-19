@@ -195,6 +195,7 @@
 .contant3 {
 	height: 1100px;
 }
+}
 @media all and (max-width: 470px) {
 .contant3 {
 	height: 1050px;
@@ -214,6 +215,7 @@
 .contant3-nav {
 	padding-top: 15px;
 }
+}
 @media all and (max-width: 370px) {
 	.contant3 {
 	height: 1150px;
@@ -228,7 +230,81 @@
 }
 }
 @media all and (max-width: 1024px) {
+	description-box {
+	padding-top: 15%;
+}
+}
+/*отключение ховеров тут*/
+@media all and (max-width: 1024px) {
 	li {
 	width: 50%;
+}
+.header-nav-link:hover {
+  background-color: #02918c;
+  width: 100%;
+  color: #fff;
+  padding: 0px;
+}
+.contant1-botom:hover {
+  border-top: none;
+  border-bottom: none;
+  color: #000;
+}
+.form_bottom:hover {
+  border-top: none;
+  border-bottom: none;
+  color: #000;
+}
+.description {
+	opacity: 1;
+	background-color: rgba(2,145,140,.45);
+}
+.description-box {
+	padding-top: 15%;
+	width: 200px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+}
+@media all and (max-width: 800px) {
+	.description-box {
+	padding-top: 10%;
+}
+}
+@media all and (max-width: 590px) {
+	.description-box {
+	padding-top: 5%;
+}
+}
+@media all and (max-width: 515px) {
+	.description-box {
+	padding-top: 0%;
+	width: 150px;
+}
+.description_text p {
+	font-size: 11px;
+	line-height: 16px;
+}
+.description h3 {
+	font-size: 14px;
+	line-height: 18px;
+}
+}
+@media all and (max-width: 450px) {
+	li {
+	width: 100%;
+}
+.description-box {
+	padding-top: 10%;
+	width: 200px;
+}
+.description_text p {
+	font-size: 14px;
+	line-height: 20px;
+}
+.description h3 {
+	font-size: 18px;
+	line-height: 25px;
 }
 }
