@@ -310,18 +310,16 @@ h3 {
 	display: inline-block;
 	width: 100%;
 	font-size: 0;
+	position: relative;
 }
 li {
 	list-style-type: none;
-}
-.contant4-nav-link {
 	float: left;
 	width: 25%;
-	display: inline-block;
-	position: relative;
 }
 .contant4-nav-link img {
 	width: 100%;
+	height: auto;
 	vertical-align: middle;
 }
 .description {

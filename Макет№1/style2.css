@@ -228,7 +228,7 @@
 }
 }
 @media all and (max-width: 1024px) {
-	.contant4-nav-link {
-	width: 75%;
+	li {
+	width: 50%;
 }
 }
